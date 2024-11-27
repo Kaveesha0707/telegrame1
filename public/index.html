@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Keyword Management System</h1>
+
+    <!-- Form to Add Keyword and Channel ID -->
+    <form id="keywordForm">
+      <input
+        type="text"
+        id="channelIdInput"
+        placeholder="Enter Channel ID"
+        required
+      />
+      <input
+        type="text"
+        id="keywordInput"
+        placeholder="Enter a Keyword"
+        required
+      />
+      <button type="submit">Add Keyword</button>
+    </form>
+
+    <!-- List of Keywords -->
+    <h2>Keyword List</h2>
+    <ul id="keywordList"></ul>
+  </div>
+
+  <script src="keywords.js"></script>
+</body>
+</html>
